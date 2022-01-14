@@ -13,22 +13,22 @@ import Super from './components/comunicacao/indireta/Super';
 
 export default (props) => (
     <div className="App">
-        <Card titulo='#08 - Comunicação Indireta'>
+        <Card titulo='#08 - Comunicação Indireta' color='#1F42A5'>
             <Super/>
         </Card>
-        <Card titulo='#07 - Comunicação direta'>
+        <Card titulo='#07 - Comunicação direta' color='#FF5733'>
             <Pai sobrenome='Freitas'></Pai>
         </Card>
-        <Card titulo='#6 - Condicional versão 2'>
+        <Card titulo='#6 - Condicional versão 2' color='#F683B6'>
             <CondicionalComIf numero={12}/>
         </Card>
-        <Card titulo='#5 - Condicional versão 1'>
+        <Card titulo='#5 - Condicional versão 1' color='#3498DB'>
             <Condicional numero={11}/>
         </Card>
-        <Card titulo='#04 - Repetição'>
+        <Card titulo='#04 - Repetição' color='#1F42A5' color='#fdbe02'>
             <Repeticao/>
         </Card>
-        <Card titulo='#03 - Componente com filhos'>
+        <Card titulo='#03 - Componente com filhos' color='#420699'>
             <ComFilhos>
                 <ul>
                     <li>Ana</li>
@@ -38,11 +38,11 @@ export default (props) => (
                 </ul>
             </ComFilhos>
         </Card>
-        <Card titulo='#02 - Componente Com Parâmetro'>
+        <Card titulo='#02 - Componente Com Parâmetro' color='#69BD85'>
             <ComParametro titulo='Esse é o título' 
             subtitulo='Esse é o subtítulo' />
         </Card>
-        <Card titulo='#01 - Primeiro Componente'>
+        <Card titulo='#01 - Primeiro Componente' color='#212F3C'>
             <Primeiro/>
         </Card>
     </div>
