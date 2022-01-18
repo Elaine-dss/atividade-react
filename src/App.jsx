@@ -12,12 +12,16 @@ import Pai from './components/comunicacao/direta/Pai';
 import Super from './components/comunicacao/indireta/Super';
 import Input from './components/form/Input';
 import Contador from './components/Contador/Contador';
+import Mega from './components/mega/Mega';
 
 export default (props) => (
     <div className="App">
         <h1>Fundamentos React</h1>
 
         <div className='Cards'>
+            <Card titulo='#11 - Mega-Sena' color='#DE2F2F'>
+                <Mega qtdNumeros={6} />
+            </Card>
             <Card titulo='#10 - Contador' color='#000'>
                 <Contador valor={10}/>
             </Card>
@@ -27,7 +31,7 @@ export default (props) => (
             <Card titulo='#08 - Comunicação Indireta' color='#1F42A5'>
                 <Super/>
             </Card>
-            <Card titulo='#07 - Comunicação direta' color='#FF5733'>
+            <Card titulo='#07 - Comunicação direta' color='#FF7033'>
                 <Pai sobrenome='Freitas'></Pai>
             </Card>
             <Card titulo='#06 - Condicional versão 2' color='#F683B6'>
@@ -49,11 +53,11 @@ export default (props) => (
                     </ul>
                 </ComFilhos>
             </Card>
-            <Card titulo='#02 - Componente Com Parâmetro' color='#69BD85'>
+            <Card titulo='#02 - Componente Com Parâmetro' color='#209F3C'>
                 <ComParametro titulo='Esse é o título' 
                 subtitulo='Esse é o subtítulo' />
             </Card>
-            <Card titulo='#01 - Primeiro Componente' color='#212F3C'>
+            <Card titulo='#01 - Primeiro Componente' color='#211F3C'>
                 <Primeiro/>
             </Card>
         </div>
